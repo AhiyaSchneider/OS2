@@ -1,7 +1,7 @@
 # OS2
 This project consists of two programs, ex21 and ex22, which work together to compare the contents of two files.
 
-# ex21.c:
+### ex21.c:
 
 The ex21 program compares the contents of two files character by character.
 It provides a function called open_files that opens two files and retrieves their file descriptors.
@@ -12,7 +12,7 @@ The main function reads the characters from both files, compares them, and retur
 2 if the files are similar.
 3 if the files differ.
 
-# ex22.c:
+### ex22.c:
 
 The ex22 program uses ex21 as a library to compare the contents of two files.
 It provides additional functionality to compile and execute C programs.
@@ -25,10 +25,10 @@ Compares the output file with a provided reference output file using ex21.c.
 Writes the result to a CSV file.
 Usage:
 
-Compile ex21.c:
+#### Compile ex21.c:
 gcc ex21.c -o ex21
 
-Compile ex22.c:
+#### Compile ex22.c:
 gcc ex22.c -o ex22
 
 Run ex22 program with the directory and file paths as command-line arguments:
