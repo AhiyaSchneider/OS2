@@ -12,7 +12,7 @@ The main function reads the characters from both files, compares them, and retur
 2 if the files are similar.
 3 if the files differ.
 
-ex22.c:
+# ex22.c:
 
 The ex22 program uses ex21 as a library to compare the contents of two files.
 It provides additional functionality to compile and execute C programs.
