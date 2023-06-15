@@ -16,7 +16,7 @@ ex22.c:
 
 The ex22 program uses ex21 as a library to compare the contents of two files.
 It provides additional functionality to compile and execute C programs.
-The main function:
+The main function :
 Checks if the directory and files provided by the user are valid.
 Reads the contents of a configuration file to get the directory and file paths.
 Compiles the C file found in the directory using ex21.c as a library.
